@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (max-width: 3200px){
+  #main-bg{
+    width: 100%;
+    height: 100vh;
+  }
+  #main-bg>#bg-video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+  #bg-video>video{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    object-fit: cover;
+  }
+
+    #page1{
+      display: flex;
+      width: 100%;
+      height: 100vh;
+      color: #fff;
+    }
+  
+  #page2{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+  }
+  #page3{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+  }
+  #page4{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+  }
+  #page5{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+  }
+  #page6{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+  }
+
+  #ltext{
+    margin: 2%;
+    width: 50%;
+    height:55%;
+    margin-top: 14%;
+    border-radius: 20px;
+    background-color: rgba(131, 126, 126, 0.25);
+}
+ #ltext>h4{
+    font-size: 20px;
+    padding: 40px;
+    margin-top:5% ;
+}
+  #rtext{
+    margin: 2%;
+    width: 50%;
+    height:55%;
+    margin-top: 50%;
+    border-radius: 20px;
+    background-color: rgba(131, 126, 126, 0.25);
+
+}
+#rtext>h4{
+    font-size: 20px;
+    padding: 40px;
+    margin-top:5% ;
+}
+
+.btn{
+  height: 3rem;
+  width: 7rem;
+  border-radius: 20px;
+  margin-left: 2rem;
+  transition: .3s;
+}
+.btn:hover{
+  color: #fff;
+  background-color: rgb(54, 54, 221);
+}
+ }
+/* --------------------------------- */
+
+@media (max-width: 420px) {
+  
+    #main-bg{
+      height: 768px;
+      width: 320px;
+      align-items: center;
+    }
+    #ltext{
+      height: 50vh;
+      width: 100%;
+      padding: 5px;
+      margin: 10px;;
+    }
+    #ltext>h4{
+      font-size: 10px;
+      line-height: 15px;
+    }
+    #rtext{
+      height: 50vh;
+      width: 100%;
+      padding: 5px;
+    }
+    #rtext>h4{
+      font-size: 10px;
+      line-height: 15px;
+    }
+    .btn{
+      height: 1.5rem;
+      width: 4rem;
+      font-size: 5px;
+      margin-left: 40%;
+    }
+    #page1{
+      display: block;
+    
+    }
+    #page2{
+      display: block;
+      margin-top: 13rem;
+    }
+    #page3{
+      display: block;
+      margin-top: 13rem;
+    }
+    #page4{
+      display: block;
+      margin-top: 13rem;
+    }
+    #page5{
+      display: block;
+      margin-top: 13rem;
+    }
+    #page6{
+      display: block;
+      margin-top: 13rem;
+    }
+
+  }
